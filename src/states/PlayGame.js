@@ -9,7 +9,7 @@ import EnemyDeath from '../sprites/EnemyDeath';
 
 export default class extends Phaser.State {
     create() {
-        this.audioFlag = true;
+        this.audioFlag = false;
         this.createBg();
 
         this.createTileMap(1);
